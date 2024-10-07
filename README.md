@@ -1,5 +1,11 @@
   ## Creating Multiple Spotify Playlists Using Terraform
 
+  
+
+  ![Screenshot (14)](https://github.com/user-attachments/assets/5fd7891b-b6d9-4e32-8ea5-045ca8e41f44)
+
+
+
 ## Project Overview
 
 This project involves using Terraform to create multiple Spotify playlists. Terraform, an Infrastructure-as-Code (IaC) tool, is used here to write declarative configuration files to manage the Spotify playlists.
@@ -33,6 +39,9 @@ provider "spotify" {
 
 ```
 
+![Screenshot (10)](https://github.com/user-attachments/assets/3ba6c27a-8631-4724-920e-ffae74122b58)
+
+
 ### 3. Need API Key
 
 To interact with Spotify's API, you need a Client ID and Client Secret.
@@ -48,8 +57,9 @@ To interact with Spotify's API, you need a Client ID and Client Secret.
     | Name | Description |
     | --- | --- |
     | My Playlist through Terraform | Create multiple Spotify playlists using Terraform. |
-    - *Redirect URIs: [http://localhost:27228/spotify_callback](http://localhost:27228/spotify_callback**)
-  
+
+    ![Screenshot (2) 1](https://github.com/user-attachments/assets/b1f617d2-03bb-48ce-98ca-63cd13563751)
+
 ### 5. Enter Details
 
 Create a file named `.env` to store your Spotify application's Client ID and Secret.
@@ -62,6 +72,8 @@ You should get “Authorization Successful” Message.
 
 ### 7. Continue Creating Terraform Code
 Once applied, the Terraform configuration will create or update the Spotify playlist and add the specified tracks.
+![Screenshot (12)](https://github.com/user-attachments/assets/e5b6976c-8c21-4b5d-bd1e-e96018590d85)
+
 
 ### 8. Initialize and Apply Terraform Configuration
 
@@ -85,3 +97,5 @@ Once applied, the Terraform configuration will create or update the Spotify play
 After applying the Terraform configuration, log in to your Spotify account and verify that the playlists have been created and populated with the specified tracks.
 
 Customize the playlists and tracks as per your preference to suit different occasions.
+![Screenshot (14)](https://github.com/user-attachments/assets/c02466b2-13ff-48b9-944d-377e9660cff7)
+
